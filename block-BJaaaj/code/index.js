@@ -39,3 +39,40 @@ let amount = 4280;
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
 // Declare a variable `dividedAmount`. It should store the resultant of amount divided by 57.
+
+alert("Arya");
+alert("Stark");
+firstName = "John";
+lastName = "Snow";
+let fullName = firstName + " " + lastName;
+alert(fullName);
+
+
+let name = "Aditya";
+let newUser = "name";
+let isAdmin = "true";
+alert("Aditya")
+alert("name")
+alert("true")
+
+samwellTarly = "Tyrion Lannister";
+let userName = "Lysa Arryn";
+let oddNumber = "57";
+oddNumber = "61";
+
+let reducedAmount = 24;
+let subtract =  amount - reducedAmount;
+let addedAmount = 32;
+let sum =  amount + addedAmount;
+let multipleAmount = 7;
+let multiply = amount * multipleAmount;
+let dividedAmount = 57;
+let divide = amount / dividedAmount;
+
+
+
+
+
+
+
+
