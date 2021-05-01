@@ -7,7 +7,7 @@
   - `if` the number is odd print the message "number is odd"
 */
 
-let number = +prompt(`Enter a number`);
+let number = +prompt("Enter a number");
 if(number % 2 === 0) {
   alert(`The number is even`);
 } else {
@@ -15,8 +15,8 @@ if(number % 2 === 0) {
 }
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
-let num1 = +prompt(`Enter a number`);
-let num2 = +prompt(`Enter second number`);
+let num1 = +prompt("Enter a number");
+let num2 = +prompt("Enter second number");
 if(num1 > num2) {
   alert(`${num1} is max value`);
 }
@@ -25,14 +25,12 @@ else{
 }
 // 3. Convert the above code using`?` terniary operator
 
-let number = +prompt(`Enter a number`);
 number % 2 === 0 ? 
   alert(`The number is even`)
   :
   alert(`The number is odd`);
 
-let num1 = +prompt(`Enter a number`);
-let num2 = +prompt(`Enter second number`);
+
   num1 > num2 ?
   alert(`${num1} is max value`)
   :
@@ -45,43 +43,62 @@ let num2 = +prompt(`Enter second number`);
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
-let user = prompt(`what is your house name?`);
-if (user === 'stark'){
-  alert(`winter is coming`);
+let user = prompt("what is your house name?");
+if (user === "stark"){
+  alert("winter is coming");
 }
-else if(user === 'lannister'){
-  alert(`A lannister always pays his debt`);
+else if(user === "lannister"){
+  alert("A lannister always pays his debt");
 }else{
-  alert(`All men must die`);
+  alert("All men must die");
 }
 // 5. Convert the above code using`?` terniary operator
-let user = prompt(`what is your house name?`);
-user === 'stark'? alert(`winter is coming`) : user === 'lannister' ? alert(`A lannister always pays his debt`)
+let user = prompt("what is your house name?");
+user === "stark"? alert("winter is coming") : user === "lannister" ? alert("A lannister always pays his debt")
 :
-alert(`All men must die`);
+alert("All men must die");
 
 // Switch
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
-let month = +prompt(`Number of month?`);
+let month = prompt("Number of month?");
 switch(month){
-  case 1:
-  case 3:
-  case 5:
-  case 7:
-  case 9:
-  case 11:
-    alert(31);
+  case "jan":
+    alert("The number of days are 31");
     break;
-  case 2:
-    alert(29);
+  case "march":
+    alert("The number of days are 31");
     break;
-  case 4:
-  case 6:
-  case 8:
-  case 10:
-  case 12:
-    alert(30);
+  case "may":
+    alert("The number of days are 31");
+    break;
+  case "july":
+    alert("The number of days are 31");
+    break;
+  case "sep":
+    alert("The number of days are 30");
+    break;
+  case "nov":
+    alert("The number of days are 30");
+    break;
+  case "feb":
+    alert("The number of days are 29");
+    break;
+  case "april":
+    alert("The number of days are 30");
+    break;
+  case "june":
+    alert("The number of days are 30");
+    break;
+  case "aug":
+    alert("The number of days are 31");
+    break;
+  case "oct":
+    alert("The number of days are 31");
+    break;
+  case "dec":
+    alert("The number of days are 31");
+    break;
   default:
     alert("Match Not Found");
 }
@@ -92,7 +109,7 @@ switch(month){
   - `Salary > 50000` tax is 30 %
 
 */
-let salary = +prompt(`Enter your salary`);
+let salary = +prompt("Enter your salary");
 
 if (salary <= 20000){
   alert(`${salary - (10 / 100) * salary}`);
@@ -117,7 +134,7 @@ Implement the condition give below using`if..else` and`switch` statement.
   - `marks > 0` alert`"Grade D"`
 
 */
-let marks = +prompt(`Enter your marks`);
+let marks = +prompt("Enter your marks");
 
 if (marks > 100){
   alert(`Marks can't be greater than 100`);
@@ -136,7 +153,7 @@ else if (marks > 0){
 }
 
 
-let marks = +prompt(`Enter your marks`);
+let marks = +prompt("Enter your marks");
 switch(true){
   case(marks > 100):
   alert(`Marks can't be greater than 100`);
@@ -163,19 +180,19 @@ switch(true){
   - If`freezing` alert`Get your sweeter on`
   - Anything else should alert`Not a valid input`
 */
-let weather = prompt(`What is the weather like outside?`);
-if(weather === `sunny`){
-  alert(`Wear a T-shirt`);
+let weather = prompt("What is the weather like outside?");
+if(weather === "sunny"){
+  alert("Wear a T-shirt");
 }
-else if (weather === `rainy`){
-  alert(`Don't forget to take your raincoat`);
+else if (weather === "rainy"){
+  alert("Don't forget to take your raincoat");
 }
-else if (weather === `hot`){
-  alert(`Get a hanky`);
+else if (weather === "hot"){
+  alert("Get a hanky");
 }
-else if (weather === `freezing`){
-  alert(`Get your sweater on`);
+else if (weather === "freezing"){
+  alert("Get your sweater on");
 }
 else{
-  alert(`Not a valid input`);
+  alert("Not a valid input");
 }
